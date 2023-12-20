@@ -13,7 +13,7 @@ steps:
       - 'run'
       - 'deploy'
       - 'nandur'
-      - '--image=gcr.io/$PROJECT_ID/your-app-name'
+      - '--image=gcr.io/basic-404613/nandur'
       - '--platform=managed'
       - '--region=asia-southeast2'
       - '--allow-unauthenticated'
