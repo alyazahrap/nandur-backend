@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="nandur-db@34.128.64.226">
+<dataSource name="nandur-db@34.101.252.84">
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
     <root id="1">
       <DateStyle>mdy</DateStyle>
