@@ -3,17 +3,17 @@ steps:
     args: ['run', 'main.go']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/basic-404613/nandur', '.']
+    args: ['build', '-t', 'gcr.io/percobaan-nandur/nandur', '.']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/basic-404613/nandur']
+    args: ['push', 'gcr.io/percobaan-nandur/nandur']
 
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
       - 'deploy'
       - 'nandur'
-      - '--image=gcr.io/basic-404613/nandur'
+      - '--image=gcr.io/percobaan-nandur/nandur'
       - '--platform=managed'
       - '--region=asia-southeast2'
       - '--allow-unauthenticated'
