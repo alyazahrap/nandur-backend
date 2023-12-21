@@ -89,7 +89,7 @@ func main() {
 		w.Write(response)
 	})
 
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":3030", nil))
 }
 
 func getAllPlants(db *sql.DB) ([]Plant, error) {
