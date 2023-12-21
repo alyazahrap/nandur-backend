@@ -15,5 +15,5 @@ steps:
       - 'nandur'
       - '--image=gcr.io/basic-404613/nandur'
       - '--platform=managed'
-      - '--region=us-central1'
+      - '--region=asia-southeast2'
       - '--allow-unauthenticated'
